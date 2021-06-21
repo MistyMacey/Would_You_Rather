@@ -1,3 +1,3 @@
-Would You Rather is my solution for Codecademy's Mixed Messages project, which is part of their Full Stack Engineer career path.
+Would You Rather is my solution for Codecademy's Mixed Messages project, which is part of their Full Stack Engineer career path. It displays a randomly generated “Would You Rather” question that asks the user to choose between two activities with two notable, real-life humans.
 
-This program displays a randomly generated “Would You Rather” question that asks the user to choose between two activities with two notable, real-life humans. It is written in JavaScript.
+It is written in JavaScript.
