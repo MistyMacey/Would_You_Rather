@@ -52,7 +52,7 @@ let activities = ['assemble IKEA furniture',
                 'go cross-country skiing',
                 'go dog sledding',
                 'go downhill skiing',
-                'go dumpster diving'),
+                'go dumpster diving',
                 'go fly fishing',
                 'go grocery shopping',
                 'go hang gliding',
@@ -276,3 +276,4 @@ function wouldYouRather() {
     return `Would you rather ${activity1} with ${person1} or ${activity2} with ${person2}?`;
 }
 
+console .log(wouldYouRather());
