@@ -1,5 +1,101 @@
 let activities = [];
-let people = [];
+let people = ['American boxer Mike Tyson',
+            'Mexican painter Frida Kahlo',
+            'theoretical physicist Albert Einstein',
+            'English theoretical physicist Stephen Hawking',
+            'Polish-French physicist Marie Curie',
+            'British molecular biologist Francis Crick',
+            'English naturalist Charles Darwin',
+            'Italian astronomer Galileo Galilei',
+            'English mathematician Isaac Newton',
+            'English chemist Rosalind Franklin',
+            'Polish mathematician Nicolaus Copernicus',
+            'American astrophysicist Neil deGrasse Tyson',
+            'American marine biologist Rachel Carson',
+            'New Zealand-British biophysicist Maurice Wilkins',
+            'English computer scientist Tim Berners-Lee',
+            'Serbian-American inventor Nikola Tesla',
+            'American astronomer Carl Sagan',
+            'American inventor Thomas Edison',
+            'English scientist Robert Hooke',
+            'American paleontologist Stephen Jay Gould',
+            'American theoretical physicist Richard Feynman',
+            'English mathematician Ada Lovelace',
+            'Swedish botanist Carl Linnaeus',
+            'Italian polymath Leonardo da Vinci',
+            'French chemist and microbiologist Louis Pasteur',
+            'Greek philosopher Aristotle',
+            'English scientist Michael Faraday',
+            'Danish physicist Niels Bohr',
+            'English mathematician Alan Turing',
+            'American agricultural scientist George Washington Carver',
+            'American biologist E. O. Wilson',
+            'Austrian scientist Gregor Mendel',
+            'French chemist Antoine Lavoisier',
+            'Greek mathematician Archimedes',
+            'English polymath Charles Babbage',
+            'French engineer Antoine Henri Becquerel',
+            'English palaeontologist Mary Anning',
+            'English astronomer Edmond Halley',
+            'British mathematician William Thomson, 1st Baron Kelvin',
+            'Scottish-born inventor Alexander Graham Bell',
+            'ancient Ionian Greek philosopher Pythagoras of Samos',
+            'American chemist Linus Pauling',
+            'Scottish geologist Charles Lyell',
+            'English theoretical physicist Paul Dirac',
+            'American physicist Charles H. Townes',
+            'Scottish scientist James Clerk Maxwell',
+            'French naturalist Jean-Baptiste Lamarck',
+            'American astronomer Edwin Hubble',
+            'Indian physicist C. V. Raman',
+            'Indian nuclear physicist Homi J. Bhabha',
+            'Indian mathematician and theoretical physicist Satyendra Nath Bose',
+            'Indian mathematician Srinivasa Ramanujan',
+            'Indian-American astrophysicist Subrahmanyan Chandrasekhar',
+            'Indian physicist and astronomer Vikram Sarabhai',
+            'Indian-American biochemist Har Gobind Khorana',
+            'Indian astrophysicist Meghnad Saha',
+            'Indian aerospace scientist 11th President of India A. P. J. Abdul Kalam',
+            'Bengali chemist Prafulla Chandra Ray',
+            'Indian colloid chemist Shanti Swaroop Bhatnagar',
+            'Indian scientist Prasanta Chandra Mahalanobis',
+            'Indian paleobotanist Birbal Sahni',
+            'Indian chemical engineer Raghunath Anant Mashelkar',
+            'Indian-American mathematician Harish-Chandra',
+            'Indian scientist Charusita Chakravarty',
+            'Indian physicist Archana Bhattacharyya',
+            'Indian aerospace engineer Ritu Karidhal',
+            'Indian chemist C. N. R. Rao',
+            'Indian chemist Yamuna Krishnan',
+            'Indian scientist Gaiti Hasan',
+            'Indian physicist Radha Balakrishnan',
+            'Indian physicist Sulabha K. Kulkarni',
+            'Indian botanist Janaki Ammal',
+            'Indian physicist and meteorologist Anna Mani',
+            'Indian biologist Mitali Mukerji',
+            'Indian scientist Daulat Singh Kothari',
+            'Indian physicist Indrani Bose',
+            'Indian theoretical physicist Ashoke Sen',
+            'Indian chemist Gautam Radhakrishna Desiraju',
+            'Indian physicist G. N. Ramachandran',
+            'Indian geneticist M. S. Swaminathan',
+            'Indian oceanographer Aditi Pant',
+            'Indian structural geologist Sudipta Sengupta',
+            'Indian physicist Raja Ramanna',
+            'Indian-American physicist Narinder Singh Kapany',
+            'Indian crystallographer Gopinath Kartha',
+            'Indian physicist K. S. Krishnan',
+            'Indian physicist Amal Kumar Raychaudhuri',
+            'Indian theoretical physicist Thanu Padmanabhan',
+            'Indian physicist Ganeshan Venkataraman',
+            'Indian biologist Paramjit Khurana',
+            'Indian physicist Rohini Godbole',
+            'Indian chemist Asima Chatterjee',
+            'Indian biologist Amitabh Joshi',
+            'Indian archaeologist Nayanjot Lahiri',
+            'Indian scientist Seema Bhatnagar',
+            'Indian biologist Veena Parnaik',
+            'British epidemiologist Sunetra Gupta'];
 
 activities.push('assemble IKEA furniture');
 activities.push('attend a fashion show');
@@ -83,6 +179,7 @@ activities.push('go to a drive-in movie');
 activities.push('go to a rave');
 activities.push('go to the symphony');
 activities.push('go tobogganing');
+activities.push('go tree planting');
 activities.push('go trick-or-treating');
 activities.push('go water skiing');
 activities.push('go whale watching');
@@ -111,8 +208,8 @@ activities.push('make snow angles');
 activities.push('meditate');
 activities.push('perform at an open mic');
 activities.push('plan a surprise party');
+activities.push('plant a flower garden');
 activities.push('plant a vegetable garden');
-activities.push('plant trees');
 activities.push('play backgammon');
 activities.push('play catch');
 activities.push('play chess');
