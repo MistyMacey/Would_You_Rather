@@ -157,3 +157,23 @@ activities.push('volunteer at an animal shelter');
 activities.push('waltz');
 activities.push('watch a meteor shower');
 activities.push('watch a wildlife documentary');
+
+// Returns a randomly selected activity from the activities array
+function getActivity() {
+    return activities[Math.floor(Math.random() * activities.length)];
+}
+
+// Returns a randomly selected person from the people array
+function getPerson() {
+    return people[Math.floor(Math.random() * people.length)];
+}
+
+// Returns a randomly generated Would You Rather question
+function wouldYouRather() {
+    let activity1 = getActivity();
+    let activity2 = getActivity();
+    let person1 = getPerson();
+    let person2 = getPerson();
+    return `Would you rather ${activity1} with ${person1} or ${activity2} with ${person2}?`;
+}
+
