@@ -70,8 +70,9 @@ let activities = ['assemble IKEA furniture',
                 'go dumpster diving',
                 'go fly fishing',
                 'go for a jog',
-                'go for a walk',
                 'go for a motorcycle ride',
+                'go for a slay ride',
+                'go for a walk',
                 'go foraging',
                 'go freerunning',
                 'go grocery shopping',
@@ -446,7 +447,16 @@ let people = ['American boxer Mike Tyson',
             'Ethiopian writer Nega Mezlekia',
             'Ethiopian scientist Segenet Kelemu',
             'Ethiopian writer Mammo Wudneh',
-            'American chemist Sossina M. Haile'];
+            'American chemist Sossina M. Haile',
+            'Nigerian visual artist Chinwe Chukwuogo-Roy',
+            'Nigerian painter Chris Ofili',
+            'Nigerian artist Laolu Senbanjo',
+            'Nigerian visual artist Marcia Kure',
+            'Nigerian visual artist Uche Okeke',
+            'Nigerian painter and drummer Muraina Oyelami',
+            'British-Nigerian artist Yinka Shonibare',
+            'Nigeria-based visual artist Ndidi Dike',
+            'Nigerian painter and sculptor Ben Enwonwu'];
 
 // Returns a randomly selected activity from the activities array
 function getActivity() {
